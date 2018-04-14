@@ -32,6 +32,8 @@ void setup() {
 }
 
 void loop() {
+  // Uncomment this code for Leonardo, Micro, or other ATmega32U4 based boards.
+  //serialEvent();
   // print the string when a newline arrives:
   if (stringComplete) {
     command_listener();
